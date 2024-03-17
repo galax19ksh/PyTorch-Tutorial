@@ -35,6 +35,16 @@ They are the two most popular deep learning libraries within the machine learnin
 ## Installation
 To get started with PyTorch, you'll first need to install it on your system. You can install PyTorch using pip or conda, depending on your preference and system configuration. Follow the instructions on the official [PyTorch website](https://pytorch.org/) to install PyTorch on your system. Personality I prefer [Google Colab](https://colab.research.google.com/) most of the time due to lack of computational power of my system.
 
+**Using pip:**
+
+```bash
+pip install torch torchvision torchaudio
+```
+ **Using conda:**
+```bash
+conda install pytorch torchvision torchaudio -c pytorch
+```
+
 
 ## Tutorials 
 Check out the detailed tuturials [here](https://pytorch.org/tutorials/).
