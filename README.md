@@ -5,7 +5,7 @@ Welcome to the PyTorch Tutorial repository! This repository contains a collectio
 [PyTorch](https://pytorch.org/) is an open-source machine learning library developed by Facebook's AI Research lab. It provides a flexible and dynamic computational graph, allowing for easy experimentation and efficient deployment of deep learning models. This tutorial repository is designed to guide beginners through the basics of PyTorch and help them build a strong foundation in deep learning concepts and practices.
 
 ### Official Documentation
-Refer to the official [PyTorch Documentation] (https://pytorch.org/docs/stable/index.html).
+Refer to the official [PyTorch Documentation](https://pytorch.org/docs/stable/index.html).
 
 ### Datasets
 
