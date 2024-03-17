@@ -1,0 +1,2 @@
+PyTorch 2.2 or any latest version
+CPU or GPU 
