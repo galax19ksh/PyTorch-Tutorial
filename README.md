@@ -50,6 +50,8 @@ conda install pytorch torchvision torchaudio -c pytorch
 Check out the detailed tuturials [here](https://pytorch.org/tutorials/).
 This repo is mainly for the small projects for practice to get started with PyTorch for deep learning.
 
+RESOURCES: https://www.learnpytorch.io/ OR https://github.com/mrdbourke/pytorch-deep-learning
+
 * **Tensors:** Learn the fundamentals of PyTorch with tensors, the building blocks for data representation and computation in deep learning.
 
 * **Datasets & DataLoaders:** Explore how to efficiently load and process data using PyTorch's Datasets and DataLoaders, simplifying the data handling pipeline for training and evaluation. PyTorch provides two data primitives: `torch.utils.data.DataLoader` and `torch.utils.data.Dataset`.
