@@ -52,6 +52,9 @@ This repo is mainly for the small projects for practice to get started with PyTo
 
 RESOURCES: https://www.learnpytorch.io/ OR https://github.com/mrdbourke/pytorch-deep-learning
 
+
+![01_a_pytorch_workflow](https://github.com/galax19ksh/PyTorch-Tutorial/assets/112553872/0f21bf95-3cdd-47a6-9874-213380b600d7)
+
 * **Tensors:** Learn the fundamentals of PyTorch with tensors, the building blocks for data representation and computation in deep learning.
 
 * **Datasets & DataLoaders:** Explore how to efficiently load and process data using PyTorch's Datasets and DataLoaders, simplifying the data handling pipeline for training and evaluation. PyTorch provides two data primitives: `torch.utils.data.DataLoader` and `torch.utils.data.Dataset`.
