@@ -53,6 +53,9 @@ int main() {
 
     // Train the neural network
     for (int epoch = 0; epoch < NUM_EPOCHS; epoch++) {
+        double total_loss = 0;
+        int correct_count = 0;
+
         for (int i = 0; i < 4; i++) {
             // Forward propagation
             double hidden_layer[HIDDEN_SIZE];
@@ -74,8 +77,17 @@ int main() {
             }
             output_layer[0] = sigmoid(output_sum + output_bias[0]);
 
-            // Backpropagation
+            // Calculate loss
             double output_error = expected_outputs[i][0] - output_layer[0];
+            total_loss += output_error * output_error;
+
+            // Calculate accuracy
+            if ((output_layer[0] >= 0.5 && expected_outputs[i][0] == 1) || 
+                (output_layer[0] < 0.5 && expected_outputs[i][0] == 0)) {
+                correct_count++;
+            }
+
+            // Backpropagation
             double output_delta = output_error * sigmoid_derivative(output_layer[0]);
 
             double hidden_errors[HIDDEN_SIZE];
@@ -103,6 +115,11 @@ int main() {
                 output_weights[j][0] += LEARNING_RATE * hidden_layer[j] * output_delta;
             }
             output_bias[0] += LEARNING_RATE * output_delta;
+        }
+
+        // Print loss and accuracy every 1000 epochs
+        if (epoch % 1000 == 0) {
+            printf("Epoch %d: Loss = %.4f, Accuracy = %.2f%%\n", epoch, total_loss / 4, (correct_count / 4.0) * 100);
         }
     }
 
