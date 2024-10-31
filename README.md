@@ -50,10 +50,10 @@ conda install pytorch torchvision torchaudio -c pytorch
 Check out the detailed tuturials [here](https://pytorch.org/tutorials/).
 This repo is mainly for the small projects for practice to get started with PyTorch for deep learning.
 
-USEFUL RESOURCES: https:[learnpytorch.io](//www.learnpytorch.io/) OR [github.com/mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning)
+USEFUL RESOURCES: [learnpytorch.io](//www.learnpytorch.io/) OR [github.com/mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning)
 
 EXAMPLE CODES:
-[Fashion MNIST](https://github.com/galax19ksh/PyTorch-Tutorial/blob/main/Fashion%20MNIST/Fashion_MNIST_with_Pytorch.ipynb)
+[Fashion MNIST](https://github.com/galax19ksh/PyTorch-Tutorial/blob/main/Fashion%20MNIST/Fashion_MNIST_with_Pytorch.ipynb), 
 [XOR implementation](https://github.com/galax19ksh/PyTorch-Tutorial/blob/main/XOR%20implementation/XOR_in_pytorch.ipynb)
 
 ![01_a_pytorch_workflow](https://github.com/galax19ksh/PyTorch-Tutorial/assets/112553872/0f21bf95-3cdd-47a6-9874-213380b600d7)
